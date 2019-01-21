@@ -17,5 +17,8 @@ function ready(fn) {
       document.querySelectorAll('.body-content')[0].style.marginTop = (navbarHeight+30) + "px"; 
     }
   }
-  
+
+function afterReady() {
+  console.log('ready');
+}
   
