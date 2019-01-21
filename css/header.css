@@ -24,7 +24,7 @@
 
 .cbp-af-header .cbp-af-inner {
     width: 90%;
-    max-width: 1008px;
+    max-width: 1500px;
     /* 69em; */
     margin: 0 auto;
     padding: 0 30px;
@@ -83,7 +83,6 @@
 
 .cbp-af-header.cbp-af-header-shrink {
     height: 20px;
-    /* 90px; */
 }
 
 .cbp-af-header.cbp-af-header-shrink h1,
@@ -187,3 +186,7 @@
 		line-height: 210px;
 	}
 } */
+
+.navigations a {
+    text-decoration: none;
+}

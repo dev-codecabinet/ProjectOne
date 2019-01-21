@@ -1,7 +1,7 @@
 .intro-front {
     background: url(../images/home.jpg) 50% 0;
     background-repeat: no-repeat;
-    min-height: calc(120vh - 720px);
+    min-height: 74.5%; /* calc(120vh - 560px); */
     background-repeat: no-repeat;
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
@@ -12,11 +12,17 @@
     justify-content: flex-end;
     align-items: center;
     align-content: center;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background: #E7F4FC;
 }
 
 .intro-text {
@@ -26,6 +32,9 @@ body {
     margin: 60px 100px;
     max-width: 555px;
     /* font-size: 21px; */
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(32, 135, 208);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(32, 135, 208);
+    box-shadow: 10px 10px 5px 0px rgb(32, 135, 208);
 }
 
 .intro-text p,
@@ -42,11 +51,15 @@ body {
 .intro-contact {
     background: #053D5F;
     color: white;
-    padding: 40px 0px;
+    padding: 30px 0px;
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+
+.intro-contact h2 {
+    margin:0;
 }
 
 .gradient-skin {
@@ -63,8 +76,15 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    font-size:30px;
+    font-size:25px;
 }
+
+.section-two {
+    height: 600px;
+    width:100%;
+}
+
+
 
 @media only screen and (max-device-width: 640px) {
     .intro-front {
@@ -91,4 +111,46 @@ body {
         font-size:50px;
         padding: 20px 50px;
     }
+    .intro-front {
+        min-height: 62%;
+    }
+}
+
+@media only screen and  (min-device-height:800px) {
+    .intro-front {
+        min-height: 69%;
+    }
+}
+
+.section-two {
+    background: 
+        linear-gradient(150deg, rgba(45, 21, 130, 0.6)0%, rgba(25, 160, 255, 0.6) 100%),
+        url(../images/layer.jpg) 50% 0;
+
+    background-repeat: no-repeat;
+    min-height: calc(120vh - 560px);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partner-with-us {
+    padding: 10px;
+    text-align:center;
+}
+
+.partner-with-us p {
+    padding: 0 30px;
 }
