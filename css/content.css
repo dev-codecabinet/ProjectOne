@@ -31,6 +31,10 @@ body {
     margin: 60px 100px;
     max-width: 555px;
     /* font-size: 21px; */
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
+box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
 }
 
 .intro-text p,
@@ -101,6 +105,21 @@ body {
 
 .partner-us {
     text-align:center;
+
+    background: url(../images/section.jpg) 50% 0;
+    background-repeat: no-repeat;
+    min-height: calc(120vh - 720px);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    background-position: center;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .advantages {
