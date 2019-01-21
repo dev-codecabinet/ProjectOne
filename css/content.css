@@ -102,3 +102,16 @@ body {
 .partner-us {
     text-align:center;
 }
+
+.advantages {
+    display:flex;
+    width:100%;
+    flex-direction:row;
+}
+
+.items {
+    padding: 0 50px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 20px;
+}
