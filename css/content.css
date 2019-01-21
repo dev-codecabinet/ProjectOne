@@ -32,9 +32,9 @@ body {
     max-width: 555px;
     /* font-size: 21px; */
 
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
--moz-box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
-box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
+    -webkit-box-shadow: 10px 10px 5px 0px #206ED2;
+-moz-box-shadow: 10px 10px 5px 0px #206ED2;
+box-shadow: 10px 10px 5px 0px #206ED2;
 }
 
 .intro-text p,
@@ -131,16 +131,20 @@ box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    padding-top:30px;
 }
 
 .advantages {
     display:flex;
-    width:100%;
+    /* width:100%; */
     flex-direction:row;
+    padding: 0 300px;
 }
 
 .partner-us h1 {
-    font-size:31px;
+    font-size:41px;
+    color: #206ED2;
 }
 
 .advantages div {
@@ -153,9 +157,9 @@ box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
     margin: 20px;
     border-radius: 20px;
 
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
-    box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
+    -webkit-box-shadow: 10px 10px 5px 0px #206ED2;
+    -moz-box-shadow: 10px 10px 5px 0px #206ED2;
+    box-shadow: 10px 10px 5px 0px #206ED2;
     background: rgba(0, 0, 0, 0.7);
     color: white;
     font-size: 25px;

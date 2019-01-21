@@ -36,6 +36,10 @@
     position: relative;
 }
 
+.cbp-af-inner h1 {
+    font-family: 'Shrikhand', cursive;
+}
+
 
 /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
 
