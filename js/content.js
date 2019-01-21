@@ -4,6 +4,10 @@
  | ---------------------------*/
 
 ready();
+AOS.init({
+  duration: 1200,
+})
+
 
 function ready(fn) {
     if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading"){
