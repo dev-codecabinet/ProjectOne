@@ -15,10 +15,23 @@ function ready(fn) {
       let navbarHeight = $('#header').height();/* document.getElementById('header').style.height; */
       console.log(navbarHeight);
       document.querySelectorAll('.body-content')[0].style.marginTop = (navbarHeight+30) + "px"; 
+      afterReady();
     }
   }
 
 function afterReady() {
   console.log('ready');
+
+  let windowSize = window.innerHeight;
+  let header = document.getElementById('mirror-header').clientHeight;//$('.mirror-header').outerHeight();
+  let contactArea = document.getElementById('intro-contact').clientHeight;
+
+  console.log('windowSize: '+windowSize);
+  console.log('header: '+header);
+  console.log('contactArea: '+contactArea);
+
+  let actualSize = windowSize - (header + contactArea);
+  console.log('actualSize: '+actualSize);
+  $('.intro-front').css('height', actualSize+'px');
 }
   
