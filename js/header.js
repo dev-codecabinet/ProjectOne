@@ -17,20 +17,20 @@ var cbpAnimatedHeader = (function () {
 	function scrollPage() {
 		var sy = scrollY();
 		if (sy >= changeHeaderOn) {
-			// $(header).addClass('cbp-af-header-shrink');
+			$('.cbp-af-header').addClass('cbp-af-header-shrink');
 
-			if (header.classList)
+			/* if (header.classList)
 				header.classList.add('cbp-af-header-shrink');
 			else
-				header.className += ' ' + 'cbp-af-header-shrink';
+				header.className += ' ' + 'cbp-af-header-shrink'; */
 		}
 		else {
-			// $(header).removeClass('cbp-af-header-shrink');
+			$('.cbp-af-header').removeClass('cbp-af-header-shrink');
 
-			if (header.classList)
+			/* if (header.classList)
 				header.classList.remove('cbp-af-header-shrink');
 			else
-				header.className = header.className.replace(new RegExp('(^|\\b)' + 'cbp-af-header-shrink'.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+				header.className = header.className.replace(new RegExp('(^|\\b)' + 'cbp-af-header-shrink'.split(' ').join('|') + '(\\b|$)', 'gi'), ' '); */
 		}
 		didScroll = false;
 	}

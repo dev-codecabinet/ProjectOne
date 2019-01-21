@@ -14,7 +14,7 @@ function ready(fn) {
 
       let navbarHeight = $('#header').height();/* document.getElementById('header').style.height; */
       console.log(navbarHeight);
-      document.querySelectorAll('.body-content')[0].style.marginTop = (navbarHeight+25) + "px"; 
+      document.querySelectorAll('.body-content')[0].style.marginTop = (navbarHeight+30) + "px"; 
     }
   }
   
