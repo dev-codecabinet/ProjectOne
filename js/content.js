@@ -1,3 +1,8 @@
+/* ---------------------------
+ | This it for the body of the page
+ | -gio
+ | ---------------------------*/
+
 ready();
 
 function ready(fn) {
