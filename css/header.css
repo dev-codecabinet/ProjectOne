@@ -10,6 +10,12 @@
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
 	transition: height 0.3s;
+
+	background: #002446;/* #053D5F; */
+    color: #fff;
+    padding: 25px 0px;
+    border-radius: 0px;
+    border: 1px solid #002446;
 }
 
 .cbp-af-header .cbp-af-inner {
@@ -33,7 +39,7 @@
 
 .cbp-af-header h1 {
 	text-transform: uppercase;
-	color: #333;
+	/* color: #333; */
 	letter-spacing: 4px;
 	font-size: 64px; /* 4em; */
 	margin: 0;
@@ -45,7 +51,7 @@
 }
 
 .cbp-af-header nav a {
-	color: #aaa;
+	color: white;
 	font-weight: 700;
 	margin: 0 0 0 20px;
 	/* font-size: 1.4em; */
@@ -154,13 +160,12 @@
 	}
 }
 	
-@media only screen and (max-device-width: 768px) {
-	/* Styles */
+/* @media only screen and (max-device-width: 768px) {
 	.cbp-af-header {
 		background:yellow;
 	}
 	.cbp-af-header h1,
 	.cbp-af-header nav a {
-		line-height: 210px;/* 230px; */
+		line-height: 210px;
 	}
-}
+} */
