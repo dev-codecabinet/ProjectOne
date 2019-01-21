@@ -35,7 +35,8 @@ body {
 
 .intro-text p,
 .intro-contact p {
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-size: 31px;
 }
 
 
@@ -96,4 +97,8 @@ body {
         font-size:50px;
         padding: 20px 50px;
     }
+}
+
+.partner-us {
+    text-align:center;
 }
