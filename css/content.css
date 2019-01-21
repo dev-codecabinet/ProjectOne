@@ -40,7 +40,11 @@ box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
 .intro-text p,
 .intro-contact p {
     /* font-size: 1rem; */
-    font-size: 31px;
+    font-size: 21px;
+}
+
+.intro-text h2, .intro-contact h2 {
+    font-size:31px;
 }
 
 
@@ -106,7 +110,14 @@ box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
 .partner-us {
     text-align:center;
 
-    background: url(../images/section.jpg) 50% 0;
+    /* background: url(../images/section.jpg) 50% 0; */
+
+    background: 
+        linear-gradient(150deg, rgba(248, 246, 253, 0.6)0%, rgba(232, 237, 241, 0.6) 100%),
+        url(../images/section.jpg);
+
+
+
     background-repeat: no-repeat;
     min-height: calc(120vh - 720px);
     background-repeat: no-repeat;
@@ -128,9 +139,24 @@ box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
     flex-direction:row;
 }
 
+.partner-us h1 {
+    font-size:31px;
+}
+
+.advantages div {
+    font-size:21px;
+}
+
 .items {
     padding: 0 50px;
     border: 1px solid black;
     margin: 20px;
     border-radius: 20px;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
+    box-shadow: 10px 10px 5px 0px rgba(25,160,255,1);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 25px;
 }
