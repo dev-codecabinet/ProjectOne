@@ -14,9 +14,9 @@
 
 .cbp-af-header .cbp-af-inner {
 	width: 90%;
-	max-width: 69em;
+	max-width: 1008px; /* 69em; */
 	margin: 0 auto;
-	padding: 0 1.875em;
+	padding: 0 30px;
 }
 
 .cbp-af-header h1,
@@ -35,7 +35,7 @@
 	text-transform: uppercase;
 	color: #333;
 	letter-spacing: 4px;
-	font-size: 4em;
+	font-size: 64px; /* 4em; */
 	margin: 0;
 	float: left;
 }
@@ -48,7 +48,8 @@
 	color: #aaa;
 	font-weight: 700;
 	margin: 0 0 0 20px;
-	font-size: 1.4em;
+	/* font-size: 1.4em; */
+	font-size:22px;
 }
 
 .cbp-af-header nav a:hover {
@@ -73,11 +74,11 @@
 }
 
 .cbp-af-header.cbp-af-header-shrink h1 {
-	font-size: 2em;
+	font-size: 32px; /* 2em; */
 }
 
 /* Example Media Queries */
-@media screen and (max-width: 55em) {
+@media screen and (max-width: 880px/* 55em */) {
 	
 	.cbp-af-header .cbp-af-inner {
 		width: 100%;
@@ -106,23 +107,60 @@
 	}
 
 	.cbp-af-header.cbp-af-header-shrink h1 {
-		font-size: 2em;
+		font-size: 32px; /* 2em; */
 	}
 
 	.cbp-af-header.cbp-af-header-shrink nav a {
-		font-size: 1em;
+		font-size: 16px; /* 1em; */
 	}
 }
 
-@media screen and (max-width: 32.25em) {
+/* @media screen and (max-width: 516px) {
 	.cbp-af-header nav a {
-		font-size: 1em;
+		font-size: 16px;
 	}
 }
 
-@media screen and (max-width: 24em) {
+@media screen and (max-width: 384px) {
 	.cbp-af-header nav a,
 	.cbp-af-header.cbp-af-header-shrink nav a {
 		line-height: 1;
+	}
+} */
+
+@media only screen and (max-device-width : 640px) {
+	.cbp-af-header {
+		/* background:yellow; */
+		height: 190px;
+	}
+	.cbp-af-header h1,
+	.cbp-af-header nav a {
+		line-height: 210px;/* 230px; */
+	}
+	.cbp-af-header h1 {
+		font-size: 110px; 
+	}
+	.cbp-af-header nav a {
+		font-size: 30px;
+	}
+	.cbp-af-header.cbp-af-header-shrink {
+		height: 100px;
+	}
+	.cbp-af-header.cbp-af-header-shrink h1 {
+		font-size: 100px;
+	}
+	.cbp-af-header.cbp-af-header-shrink h1, .cbp-af-header.cbp-af-header-shrink nav a {
+		line-height: 115px;
+	}
+}
+	
+@media only screen and (max-device-width: 768px) {
+	/* Styles */
+	.cbp-af-header {
+		background:yellow;
+	}
+	.cbp-af-header h1,
+	.cbp-af-header nav a {
+		line-height: 210px;/* 230px; */
 	}
 }
