@@ -24,7 +24,7 @@
 
 .cbp-af-header .cbp-af-inner {
     width: 90%;
-    /* max-width: 1008px; */
+    max-width: 1600px;
     /* 69em; */
     margin: 0 auto;
     padding: 0 30px;
@@ -96,8 +96,6 @@
     font-size: 32px;
     /* 2em; */
 }
-
-
 /* Example Media Queries */
 
 @media screen and (max-width: 880px
@@ -187,3 +185,15 @@
 		line-height: 210px;
 	}
 } */
+
+
+.sections a {
+    text-decoration: none;
+}
+
+.sections a:hover, .sections a:focus{
+    background: white;
+    border-radius: 20px;
+    color: #1D83E5!important;
+    padding: 10px;
+}
